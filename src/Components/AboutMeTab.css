@@ -1,0 +1,18 @@
+.experience_type:hover{
+	background-color: rgb(112, 219, 229);
+	color: brown;
+	border-radius: 10%;
+	padding: 2px;
+}
+/* items inside the TAB for about me */
+.items-design{
+	background-color: rgb(137, 240, 240);
+	border-radius: 1%;	
+	
+}
+p > ul > li > h5{
+	font-family: "Oswald", sans-serif;
+}
+p > ul{
+	list-style: none;
+}

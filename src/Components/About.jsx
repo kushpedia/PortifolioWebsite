@@ -16,16 +16,19 @@ const About = () => {
 			<div className="col-8 mt-4">
 				<div className='about_me_details flex align-items-left justify-content-left '>
 				
-					<p className='text-6xl'> &nbsp; <span className='about_ab'>Ab</span>out Me</p>
+					<p className='text-6xl mb-0'> &nbsp; <span className='about_ab'>Ab</span>out Me</p>
 					<div className='who_am_i'>
 						<p className='text-xl'>Experienced full-stack developer skilled in building robust web applications.</p>
 							<p className='text-xl'>Proficient in frontend technologies like JavaScript, React, and CSS, 
 								A strong backend foundation in Python, Php and SQL and Mongodb databases. </p>
 							<p className='text-xl'>Passionate about problem-solving and creating efficient, user-friendly software solutions.</p>
 					</div>
-					<div>
+					<div className='about_me_tab'>
+						
 					<AboutMeTabs/>
-					</div>				
+					</div>
+					
+								
 				</div>					
 			</div>
 		</div>

@@ -6,13 +6,14 @@ import Study from '../assets/study_icon.jpg'
 import Experience from '../assets/ai_coding.jpg'
 import Skills from '../assets/Code1.jpg'
 import { Badge } from 'primereact/badge';
+import './AboutMeTab.css'
 
 const AboutMeTabs = () => {
 	const tab1HeaderTemplate = (options) => {
         return (
             <div className="flex align-items-center gap-2 p-3" style={{ cursor: 'pointer' }} onClick={options.onClick}>
                 <Avatar image={Study} shape="circle" />
-                <span className="font-bold white-space-nowrap">Education</span>
+                <span className="font-bold white-space-nowrap experience_type">Education</span>
 				<Badge value="4" />
             </div>
         );
@@ -22,7 +23,7 @@ const AboutMeTabs = () => {
         return (
             <div className="flex align-items-center gap-2 p-3" style={{ cursor: 'pointer' }} onClick={options.onClick}>
                 <Avatar image={Experience} shape="circle" />
-                <span className="font-bold white-space-nowrap">Experience</span>
+                <span className="font-bold white-space-nowrap experience_type">Experience</span>
             </div>
         )
     };
@@ -31,16 +32,16 @@ const AboutMeTabs = () => {
         return (
             <div className="flex align-items-center gap-2 p-3" style={{ cursor: 'pointer' }} onClick={options.onClick}>
                 <Avatar image={Skills} shape="circle" />
-                <span className="font-bold white-space-nowrap">Skills</span>
+                <span className="font-bold white-space-nowrap experience_type">Skills</span>
                 <Badge value="3" />
             </div>
         )
     };
 	return (
-		<div className="card">
-            <TabView>
-                <TabPanel header="Header I" headerTemplate={tab1HeaderTemplate}>
-                    <p className="m-0">
+		<div className="card card-design">
+            <TabView className=''>
+                <TabPanel header="Header I" headerTemplate={tab1HeaderTemplate} className='tabpanel'>
+                    <p className="m-0 items-design">
                         <ul>
 							<li>
 								<h5>Maseno University</h5>
@@ -66,7 +67,7 @@ const AboutMeTabs = () => {
                     </p>
                 </TabPanel>
                 <TabPanel headerTemplate={tab2HeaderTemplate} headerClassName="flex align-items-center">
-                    <p className="m-0">
+                    <p className="m-0 items-design">
                         <ul>
 							<li>
 								<h5>Equity Bank Kenya Limited</h5>
@@ -82,7 +83,7 @@ const AboutMeTabs = () => {
                     </p>
                 </TabPanel>
                 <TabPanel headerTemplate={tab3HeaderTemplate} headerClassName="flex align-items-center">
-                <p className="m-0">
+                <p className="m-0 items-design">
                         <ul>
 							<li>
 							<h5>Coding</h5>
