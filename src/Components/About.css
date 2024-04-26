@@ -5,14 +5,12 @@ text-decoration: underline;
 
 
 .about_me_image{
-	height: 500px;
+	height: 450px;
 	width: 90%;
 	border-radius: 10%;
+	opacity: 0.4;
 }
 .about_me_details{
 	flex-direction: column;
 }
-.about_me_tab{
-	
-	
-}
+
