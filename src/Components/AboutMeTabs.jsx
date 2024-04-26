@@ -93,7 +93,8 @@ const AboutMeTabs = () => {
 								<em>CSS, </em>
 								<em>Python, </em>
 								<em>React,</em>
-								<em>Django </em>
+								<em>Django, </em>
+								<em className='pi pi-github'>Version control</em>
 							</p>
 
 							

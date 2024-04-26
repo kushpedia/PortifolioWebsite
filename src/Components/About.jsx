@@ -16,7 +16,7 @@ const About = () => {
 			<div className="col-8 mt-4">
 				<div className='about_me_details flex align-items-left justify-content-left '>
 				
-					<p className='text-6xl mb-0'> &nbsp; <span className='about_ab'>Ab</span>out Me</p>
+					<p className='text-6xl mb-0 text-primary'> &nbsp; <span className='about_ab'>Ab</span>out Me</p>
 					<div className='who_am_i'>
 						<p className='text-xl'>Experienced full-stack developer skilled in building robust web applications.</p>
 							<p className='text-xl'>Proficient in frontend technologies like JavaScript, React, and CSS, 
