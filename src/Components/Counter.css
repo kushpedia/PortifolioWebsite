@@ -1,0 +1,49 @@
+.main_image{
+	height: 700px;
+	clip-path:  xywh(0 1px 100% 100% round 20% 0);
+	width: 95%;
+	
+}
+.title_name{
+	font-family: "Sedan", serif;
+}
+.title_name:hover{
+	color: rgb(79, 145, 190);
+	
+}
+.tag:hover{
+	color: rgb(100, 85, 85);
+	scale: 1.2;
+	
+}
+.main_container{
+	font-size: o;
+}
+
+@media (max-width: 769px ) {
+	.main_image{
+		height: 200px;
+		clip-path: none;
+		width: 60%;
+		margin-top: 2px;
+		border-radius: 10%;
+		
+	
+}
+}
+@media (max-width: 560px ) {
+	.main_image{
+		display: none;
+		}
+	.title_name{
+		
+		transform: rotate(-3deg);
+		}
+	.title_description{		
+		
+		font-size:10vw;
+	}
+	.title_name:hover{
+		color: rgb(23, 139, 216);
+	}
+}

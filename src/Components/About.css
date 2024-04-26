@@ -1,0 +1,32 @@
+.about_me_container{
+	height: 100vh;
+}
+.about_ab{
+text-decoration: underline;
+
+}
+.experience_image{
+	width: 50%;
+	height: 20vh;
+	border-radius: 5%;
+}
+.hire_me_button{
+	width: 30%;
+	height: 8vh;
+	font-size: xx-large;
+}
+.about_me{
+	width: 90%;
+	margin: auto;
+	margin-top: 4px;
+}
+
+
+.about_me_image{
+	height: 500px;
+	width: 90%;
+	border-radius: 10%;
+}
+.about_me_details{
+	flex-direction: column;
+}
