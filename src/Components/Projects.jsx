@@ -1,10 +1,9 @@
 import React from 'react'
 import { Button } from 'primereact/button'
-import { Fieldset } from 'primereact/fieldset';
+import { Fieldset } from 'primereact/fieldset'
 import image from '../assets/digital_global_connection.avif'
-import { Avatar } from 'primereact/avatar';
-import { Card } from 'primereact/card';
-
+import { Avatar } from 'primereact/avatar'
+import { Card } from 'primereact/card'
 import './ProjectCard.css'
 import Digital_global from '../assets/digital_global_connection.avif'
 import MainImage from '../assets/web-development-concept.jpg'
@@ -17,8 +16,9 @@ const Projects = () => {
         </div>
     );
 	return (
+		<>
 		<div className="card">
-		<Fieldset legend={legendTemplate}>
+		<Fieldset legend={legendTemplate} className='card_fieldset'>
 			<div className='flex align-items-center justify-content-between'>
 			<Card title='DevSearch' className='project_card'>
 				<div>
@@ -26,10 +26,10 @@ const Projects = () => {
 						alt="Project poster" className='project_poster' />
 				</div>
 					<div className="project_details  flex align-items-center justify-content-center">
-						<h1 className='project_details_heading text-blue-900'>DevSearch</h1>
+						<h1 className='project_details_heading text-red-500'>DevSearch</h1>
 						
-							<p className="movie_description text-blue-900 ">
-								This App allows developers to post their work
+							<p className="project_description text-red-900 ">
+								<em>This App allows developers to post their work</em>
 							</p>
 							<Button type="button" label="Github Repo" icon="pi pi-github"/>
 					</div>
@@ -42,10 +42,10 @@ const Projects = () => {
 						alt="Project poster" className='project_poster' />
 				</div>
 					<div className="project_details  flex align-items-center justify-content-center">
-						<h1 className='project_details_heading text-blue-900'>Learn Web Hosting</h1>
+						<h1 className='project_details_heading text-red-500'> Easy Hosting</h1>
 						
 							<p className="movie_description text-blue-900 ">
-								Web hosting made easier
+								<em>Web hosting made easier</em>
 							</p>
 							<Button type="button" label="Github Repo" icon="pi pi-github"/>
 					</div>
@@ -58,10 +58,10 @@ const Projects = () => {
 						alt="Project poster" className='project_poster' />
 				</div>
 					<div className="project_details  flex align-items-center justify-content-center">
-						<h1 className='project_details_heading text-blue-900'>Cart Wish</h1>
+						<h1 className='project_details_heading text-red-500'>Cart Wish</h1>
 						
 							<p className="movie_description text-blue-900 ">
-								For a better Shoping experience
+								<em>For a better Shoping experience</em>
 							</p>
 							<Button type="button" label="Github Repo" icon="pi pi-github"/>
 					</div>
@@ -71,7 +71,10 @@ const Projects = () => {
 			
 			</div>
 		</Fieldset>
+		
 	</div>
+		{/* <Button className=''>See More</Button> */}
+		</>
 	)
 }
 

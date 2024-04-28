@@ -43,13 +43,23 @@
 .project_card:hover .project_details {
   opacity: 1;
 }
+.project_description {
+  font-size: 16px;
 
-
-
-.movie_description {
-  font-size: 12px;
-  font-style: italic;
 }
 .movie_data_rate > p:nth-child(1) {
   margin-right: 20px;
+}
+.card{
+  background-color: rgb(83, 206, 227);
+  border-radius: 1%;
+}
+.card_fieldset{
+  background-image: url('../assets/backgroung_world.avif');
+  background-repeat:no-repeat;
+
+  background-size:cover;
+}
+.project_details_heading{
+
 }

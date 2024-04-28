@@ -1,0 +1,13 @@
+.contact_me_container{
+	border-radius: 2%;
+	background-color: rgb(41, 38, 38);
+	color: white;
+	
+}
+.social_icons{
+	text-decoration: none;
+	color:red;
+	background-color: rgb(197, 180, 180);
+	border-radius: 15%;
+}
+
