@@ -47,7 +47,9 @@ const Projects = () => {
 							<p className="movie_description text-blue-900 ">
 								<em>Popular, Top Rated, Upcoming Movies</em>
 							</p>
-							<a href="https://github.com/kushpedia/Django" target='blank'><Button type="button" label="Github Repo" icon="pi pi-github"/></a>
+							<a href="https://kushpediamovies.netlify.app/" target='blank'><Button type="button" label="Visit The App" icon="pi pi-at" severity="warning"
+							className='mb-4'/></a>
+							<a href="https://github.com/kushpedia/Django" target='blank'><Button type="button" label="Github Repo" icon="pi pi-github" /></a>
 					</div>
 				
 				
@@ -65,7 +67,9 @@ const Projects = () => {
 							<p className="movie_description text-blue-900 ">
 								<em>For a better Shoping experience</em>
 							</p>
-							<a href="https://kushpediakshop.netlify.app/" target='blank'><Button type="button" label="App Link" icon="pi pi-github"/></a>
+							<a href="https://kushpediakshop.netlify.app/" target='blank'>
+							<Button type="button" label="Visit The App" icon="pi pi-at" severity="warning"/>
+								</a>
 					</div>
 				
 				
