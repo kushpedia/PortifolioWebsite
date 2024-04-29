@@ -45,7 +45,7 @@ const AboutMeTabs = () => {
                         <ul>
 							<li>
 								<h5><li className='pi pi-prime'></li> Maseno University</h5>
-								<p>Bachelor's Degree Information Technology</p>
+								<p>Bachelor's Degree: Information Technology</p>
 							</li>
 							<li>
 							<h5> <li className='pi pi-objects-column'></li> Udemy</h5>

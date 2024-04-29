@@ -16,9 +16,7 @@
 .project_poster{
   transition: all 0.5s ease-in-out;
 }
-.project_card:hover .project_poster{
-  /* transform: scale(1.05); */
-}
+
 .project_poster {
   width: 100%;
   height: 100%;

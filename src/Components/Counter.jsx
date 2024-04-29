@@ -2,7 +2,7 @@ import './Counter.css'
 import React from 'react'
 import { Button } from 'primereact/button';
 import Image from '../assets/main1.jpeg'
-// import Image2 from '../assets/image2.jpeg'
+import { motion } from 'framer-motion';
 import Image2 from '../assets/coding.avif'
 import { Tag } from 'primereact/tag';
 const Counter = () => {
@@ -13,7 +13,11 @@ const Counter = () => {
 					<div className="grid grid-nogutter surface-0 text-800 mr-4 ml-2 mt-1 ">
 						<div className="flex align-items-center col-12 md:col-6 p-2 text-center md:text-left main_container">
 							<section className='ml-8 p-2' >
-								<span className=" block text-6xl font-bold mb-4 title_name">HENRY WANJIRU</span>
+								<motion.span className=" block text-6xl font-bold mb-4 title_name"
+								initial={{scale:0.8}}
+								animate={{scale:1.2}}
+								transition={{duration:3}}
+								>HENRY WANJIRU</motion.span>
 								<div className=" fadein animation-duration-3000 text-6xl text-primary font-italic mb-4 ml-4 title_description">
 									Full Stack Developer</div>
 								<div className='flex flex-wrap align-items-center justify-content-left gap-3 mb-8'>
@@ -32,7 +36,12 @@ const Counter = () => {
 							</section>
 						</div>
 						<div className="col-6 md:col-6 overflow-none">
-							<img src={Image2} alt="hero-1" height='590px' className ='main_image zoomindown  animation-duration-2000 ml-4'   width='450px' style={{  }} />
+							<motion.img src={Image2} alt="hero-1" height='590px' className ='main_image zoomindown  animation-duration-2000 ml-4'   width='450px' style={{  }} 
+							whileHover={{
+								rotateY:180,
+								}}
+							transition={{duration:2}}	
+							/>
 						</div>
 			</div>
 				

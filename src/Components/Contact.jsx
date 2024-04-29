@@ -22,13 +22,13 @@ const Contact = () => {
 					<div className="twitter mr-2"><a href="#"><li className='pi pi-twitter'></li></a></div>
 				</div>
 				
-				<Button label='Downloan CV' className='mt-4' severity='danger'/>
+				<Button label='Downloan CV' className='mt-4' severity='danger' icon="pi pi-upload"/>
 			</div>
 
 			<div className='contact-form p-4 my-2 flex align-items-left justify-content-between flex-column'> 
 
 				<IconField iconPosition="left">
-				<InputIcon className="pi pi-search"> </InputIcon>
+				<InputIcon className="pi pi-user-edit"> </InputIcon>
 				<InputText v-model="value1" placeholder="Enter Your Name" />
 				</IconField>
 
