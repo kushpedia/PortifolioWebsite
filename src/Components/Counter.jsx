@@ -14,9 +14,9 @@ const Counter = () => {
 						<div className="flex align-items-center col-12 md:col-6 p-2 text-center md:text-left main_container">
 							<section className='ml-8 p-2' >
 								<motion.span className=" block text-6xl font-bold mb-4 title_name"
-								initial={{scale:0.8}}
-								animate={{scale:1.2}}
-								transition={{duration:3}}
+								// initial={{scale:0.8}}
+								// animate={{scale:1.2}}
+								// transition={{duration:3}}
 								>HENRY WANJIRU</motion.span>
 								<div className=" fadein animation-duration-3000 text-6xl text-primary font-italic mb-4 ml-4 title_description">
 									Full Stack Developer</div>
@@ -37,10 +37,10 @@ const Counter = () => {
 						</div>
 						<div className="col-6 md:col-6 overflow-none">
 							<motion.img src={Image2} alt="hero-1" height='590px' className ='main_image zoomindown  animation-duration-2000 ml-4'   width='450px' style={{  }} 
-							whileHover={{
-								rotateY:180,
-								}}
-							transition={{duration:2}}	
+							// whileHover={{
+							// 	rotateY:180,
+							// 	}}
+							// transition={{duration:2}}	
 							/>
 						</div>
 			</div>
