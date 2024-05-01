@@ -1,57 +1,70 @@
 import React from 'react'
 import { Menubar } from 'primereact/menubar';
 import { Button } from 'primereact/button';
-
+import './NavBar.css'
+import { HashLink as Link } from 'react-router-hash-link';
 const NavBar = () => {
-const image = <img src='https://stackblitz.com/_astro/img/brands/stackblitz-monotone.svg'></img>
+    const image = <img src='https://stackblitz.com/_astro/img/brands/stackblitz-monotone.svg'></img>
     const items = [
-    {
-        label: 'Home',
-        icon: 'pi pi-home'
-    },
-    {
-        label: 'About Me',
-        icon: 'pi pi-star'
-    },
-    {
-        label: 'Projects',
-        icon: 'pi pi-search',
-        items: [
-            {
-                label: 'DevSearch',
-                icon: 'pi pi-bolt'
-            },
-            {
-                label: 'KShop',
-                icon: 'pi pi-server'
-            },
-            {
-                label: 'Movie Maniac',
-                icon: 'pi pi-pencil'
-            },
-            {
-                label: 'React',
-                icon: 'pi pi-palette',
-                items: [
-                    {
-                        label: 'ToDO App',
-                        icon: 'pi pi-palette'
-                    },
-                    {
-                        label: 'Weather App',
-                        icon: 'pi pi-palette'
-                    }
-                ]
-            }
-        ]
-    }
-    
-];
-const contact_button = <a href="/"> <Button className ='text-blue-800 hover:text-white' label="Contact" rounded icon="pi pi-envelope" /></a>
-	return (
-		<Menubar className="bg-primary text-white font-4xl p-2 mt-5 mr-4 ml-2"
-		start={image} model={items} end={contact_button}/>
-	)
+        {
+            label: 'Home',
+            icon: 'pi pi-home',
+            url: '/'
+
+        },
+        {
+            label: 'About Me',
+            icon: 'pi pi-star',
+            url: '/#about_me',
+            smooth: 'smooth',
+        },
+        {
+            label: 'Projects',
+            icon: 'pi pi-search',
+            items: [
+                {
+                    label: 'DevSearch',
+                    icon: 'pi pi-bolt',
+                    url: '/#projects'
+                },
+                {
+                    label: 'KShop',
+                    icon: 'pi pi-server',
+                    url: '/#projects'
+
+                },
+                {
+                    label: 'Movie Maniac',
+                    icon: 'pi pi-pencil',
+                    url: '/#projects'
+                },
+                {
+                    label: 'React',
+                    icon: 'pi pi-palette',
+                    url: '/#projects',
+                    items: [
+                        {
+                            label: 'ToDO App',
+                            icon: 'pi pi-palette',
+                            url: '/#projects',
+                        },
+                        {
+                            label: 'Weather App',
+                            icon: 'pi pi-palette',
+                            url: '/#projects',
+                        }
+                    ]
+                }
+            ]
+        }
+
+    ];
+    const contact_button = <Link to="#contact_div" smooth> <Button className='text-blue-800 hover:text-white' label="Contact" rounded icon="pi pi-envelope" /></Link>
+
+    return (
+        <Menubar className="navbar_menu bg-primary text-white font-4xl p-2"
+            start={image} model={items} end={contact_button} />
+    )
 }
 
 export default NavBar

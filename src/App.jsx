@@ -6,20 +6,21 @@ import Projects from './Components/Projects';
 import NavBar from './Components/NavBar';
 import About from './Components/About';
 import Contact from './Components/Contact';
+// import { Route, Routes } from 'react-router-dom';
 
 
 
 function App() {
 
-    
+
     return (
         <>
-        <NavBar/>        
-        <Counter/>
-        <About/>
-        <Projects/>
-        <Contact/>
-    
+            <NavBar />
+            <Counter />
+            <About />
+            <Projects />
+            <Contact />
+
 
         </>
     )
