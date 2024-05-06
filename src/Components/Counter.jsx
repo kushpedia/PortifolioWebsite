@@ -8,7 +8,7 @@ import { Tag } from 'primereact/tag';
 const Counter = () => {
 
 	return (
-		<div className='main_container'>
+		<div className='main_container' id='main_container'>
 
 			<div className="grid grid-nogutter surface-0 text-800 mr-4 ml-2 mt-1 ">
 				<div className="flex align-items-center col-12 md:col-6 p-2 text-center md:text-left main_container">

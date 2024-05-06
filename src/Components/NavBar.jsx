@@ -9,7 +9,7 @@ const NavBar = () => {
         {
             label: 'Home',
             icon: 'pi pi-home',
-            url: '/'
+            url: '/#main_container'
 
         },
         {
