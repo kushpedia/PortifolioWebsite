@@ -24,7 +24,7 @@ const Contact = () => {
 
 				<Button label='Downloan CV' className='mt-4' severity='danger' icon="pi pi-upload" />
 			</div>
-			<form action="#">
+			<form action="#" className='contact_me_form'>
 				<div className='contact-form p-4 my-2 flex align-items-left justify-content-between flex-column'>
 
 					<IconField iconPosition="left">

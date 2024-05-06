@@ -2,12 +2,22 @@
 	border-radius: 2%;
 	background-color: rgb(41, 38, 38);
 	color: white;
-	
 }
+
 .social_icons{
 	text-decoration: none;
 	color:red;
 	background-color: rgb(197, 180, 180);
 	border-radius: 15%;
 }
-
+.contact_me_form{
+	margin: 6px 0;
+	border-radius: 2%;
+	background-color: rgb(28, 75, 75);
+}
+.contact_me_form:focus-within{
+	border: solid 2px rgb(71, 191, 235);
+	margin: 6px 0;
+	border-radius: 2%;
+	background-color: rgb(39, 101, 101);
+}
