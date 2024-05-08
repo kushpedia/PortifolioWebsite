@@ -1,51 +1,21 @@
-.project_card {
-  width: 300px;
-  height: 350px;
-  margin: 10px;
-  overflow: hidden;
-  border-radius: 10px;
-  color: #fff;
-  position: relative;
-  transition: all 0.2s ease-in-out;
-}
-.project_card:hover {
-  transform: scale(1.04);
-  box-shadow: 0px 4px 4px 4px rgb(83, 206, 227);
-  
-}
-.project_poster{
-  transition: all 0.5s ease-in-out;
-}
-
-.project_poster {
-  width: 100%;
-  height: 100%;
-  
-}
-
-.project_details {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0%;
-  padding: 2px;
-  margin-left: -20px;
-  background-image: linear-gradient(#12083200, rgb(119, 179, 197));
+.projects_container {
   display: flex;
-  flex-direction: column;
-  justify-content: end;
-  opacity: 0;
-  transition: all 0.5s ease-in-out;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
-.project_card:hover .project_details {
-  opacity: 1;
-}
-.project_description {
-  font-size: 16px;
-}
-.card_fieldset{
-  background-image: url('../assets/backgroung_world.avif');
-  background-repeat:no-repeat;
 
-  background-size:cover;
+.card_fieldset {
+  background-image: url('../assets/backgroung_world.avif');
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+@media (max-width: 769px) {
+  .projects_container {
+    justify-content: center;
+
+  }
 }

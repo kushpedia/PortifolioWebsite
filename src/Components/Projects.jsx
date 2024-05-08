@@ -65,7 +65,7 @@ const Projects = () => {
 		<>
 			<div className="card" id='projects'>
 				<Fieldset legend={legendTemplate} className='card_fieldset'>
-					<div className='flex flex-row flex-wrap align-items-center justify-content-center sm:justify-content-between'>
+					<div className='projects_container'>
 
 						{
 							projects.map((project) => (

@@ -10,7 +10,7 @@ const About = () => {
 
 		<>
 			<div id='about_me' className='main_about_me grid mx-8'>
-				<div className='flex flex align-items-left justify-content-left'>
+				<div className='flex flex align-items-left justify-content-center'>
 					<div className='image mr-4'>
 						<img src={AboutImage} alt='about me image' className='about_me_image my-4'></img>
 					</div>
@@ -28,7 +28,7 @@ const About = () => {
 
 				</div>
 				{/* TABMENU */}
-				<div className='about_me_tab' col-12>
+				<div className='about_me_tab'>
 
 					<AboutMeTabs />
 				</div>

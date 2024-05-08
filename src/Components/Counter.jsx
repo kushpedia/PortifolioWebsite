@@ -1,7 +1,6 @@
 import './Counter.css'
 import React from 'react'
 import { Button } from 'primereact/button';
-import Image from '../assets/main1.jpeg'
 import { motion } from 'framer-motion';
 import Image2 from '../assets/coding.avif'
 import { Tag } from 'primereact/tag';
@@ -26,8 +25,8 @@ const Counter = () => {
 							<Tag severity="Primary" className='tag' value="Version Control" icon="pi pi-github"></Tag>
 						</div>
 						<div className='flex flex-wrap align-items-center justify-content-between'>
-							<Button label="Hire Me" type="button" className="p-button-raised" />
-							<Button label="My Projects" type="button" className="p-button-outlined" />
+							<a href="/#contact_div"><Button label="Hire Me" type="button" className="p-button-raised" /></a>
+							<a href="/#projects"><Button label="My Projects" type="button" className="p-button-outlined" /></a>
 
 						</div>
 
