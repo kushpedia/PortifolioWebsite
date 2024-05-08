@@ -4,7 +4,7 @@ import { Fieldset } from 'primereact/fieldset'
 import image from '../assets/digital_global_connection.avif'
 import { Avatar } from 'primereact/avatar'
 import { Card } from 'primereact/card'
-import './ProjectCard.css'
+import './Projects.css'
 import Digital_global from '../assets/cart.jpg'
 import MainImage from '../assets/developer.jpg'
 import Movie_Maniac from '../assets/apes.jpg'
@@ -50,14 +50,22 @@ const Projects = () => {
 			'image': TodoImage,
 			'githubLink': 'https://kushpediakshop.netlify.app/',
 			'website': '#',
-		}
+		},
+		{
+			'id': 1,
+			'title': 'Devsearch',
+			'description': 'This App allows developers to post their work',
+			'image': MainImage,
+			'githubLink': 'https://github.com/kushpedia/Django',
+			'website': '#',
+		},
 	]
 
 	return (
 		<>
 			<div className="card" id='projects'>
 				<Fieldset legend={legendTemplate} className='card_fieldset'>
-					<div className='flex flex-row flex-wrap align-items-center justify-content-between'>
+					<div className='flex flex-row flex-wrap align-items-center justify-content-center sm:justify-content-between'>
 
 						{
 							projects.map((project) => (

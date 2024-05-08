@@ -1,11 +1,14 @@
 .main_image{
-	height: 650px;
+	height: 500px;
 	clip-path:  xywh(0 1px 100% 100% round 20% 0);
-	width: 95%;
+	width: 90%;
+	margin-top: 50px;
 	
 }
 .title_name{
 	font-family: "Sedan", serif;
+	font: bold;
+	font-size:xx-large;
 }
 .title_name:hover{
 	color: rgb(79, 145, 190);
@@ -17,7 +20,7 @@
 	
 }
 .main_container{
-	font-size: o;
+	margin-top: 50px;
 }
 
 @media (max-width: 769px ) {
@@ -26,10 +29,12 @@
 		clip-path: none;
 		width: 60%;
 		margin-top: 2px;
-		border-radius: 10%;
-		
+		border-radius: 10%;	
 	
 }
+/* .title_name{
+
+} */
 }
 @media (max-width: 560px ) {
 	.main_image{

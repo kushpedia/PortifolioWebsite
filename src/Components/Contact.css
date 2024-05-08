@@ -21,3 +21,13 @@
 	border-radius: 2%;
 	background-color: rgb(39, 101, 101);
 }
+@media (max-width: 769px ){
+	.contact_me_container{
+		flex-direction: column;
+	}
+	.contact_me_form{
+		margin-top: 18px;
+		
+	}
+	
+}

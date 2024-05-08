@@ -1,16 +1,26 @@
-.about_ab{
-text-decoration: underline;
+.about_ab {
+	text-decoration: underline;
 
 }
 
 
-.about_me_image{
-	height: 450px;
-	width: 90%;
+.about_me_image {
+	height: 200px;
+	width: 100%;
 	border-radius: 10%;
-	opacity: 0.4;
+	opacity: 0.5;
 }
-.about_me_details{
+
+.about_me_details {
 	flex-direction: column;
 }
 
+@media (max-width: 769px) {
+	.about_me_image {
+		height: 100px;
+		width: 100%;
+		border-radius: 10%;
+		visibility: hidden;
+
+	}
+}

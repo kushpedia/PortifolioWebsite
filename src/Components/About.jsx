@@ -10,11 +10,12 @@ const About = () => {
 
 		<>
 			<div id='about_me' className='main_about_me grid mx-8'>
-				<div className='image col-4'>
-					<img src={AboutImage} alt='about me image' className='about_me_image my-4'></img>
-				</div>
-				<div className="col-8 mt-4">
-					<div className='about_me_details flex align-items-left justify-content-left '>
+				<div className='flex flex align-items-left justify-content-left'>
+					<div className='image mr-4'>
+						<img src={AboutImage} alt='about me image' className='about_me_image my-4'></img>
+					</div>
+
+					<div className='about_me_details flex align-items-left justify-content-left'>
 
 						<p className='text-6xl mb-0 text-primary'> &nbsp; <span className='about_ab'>Ab</span>out Me</p>
 						<div className='who_am_i'>
@@ -23,14 +24,15 @@ const About = () => {
 								A strong backend foundation in Python, Php and SQL and Mongodb databases. </p>
 							<p className='text-xl'>Passionate about problem-solving and creating efficient, user-friendly software solutions.</p>
 						</div>
-						<div className='about_me_tab'>
-
-							<AboutMeTabs />
-						</div>
-
-
 					</div>
+
 				</div>
+				{/* TABMENU */}
+				<div className='about_me_tab' col-12>
+
+					<AboutMeTabs />
+				</div>
+
 			</div>
 		</>
 
