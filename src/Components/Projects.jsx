@@ -50,15 +50,7 @@ const Projects = () => {
 			'image': TodoImage,
 			'githubLink': 'https://kushpediakshop.netlify.app/',
 			'website': '#',
-		},
-		{
-			'id': 1,
-			'title': 'Devsearch',
-			'description': 'This App allows developers to post their work',
-			'image': MainImage,
-			'githubLink': 'https://github.com/kushpedia/Django',
-			'website': '#',
-		},
+		}
 	]
 
 	return (

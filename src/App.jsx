@@ -7,6 +7,7 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 // import { Route, Routes } from 'react-router-dom';
 import MainImage from './assets/web-development-concept.jpg'
+import Footer from './Components/Footer';
 
 
 
@@ -20,6 +21,9 @@ function App() {
             <About />
             <Projects />
             <Contact />
+            <Footer />
+
+
 
 
         </>

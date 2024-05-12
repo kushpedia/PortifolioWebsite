@@ -59,7 +59,7 @@ const NavBar = () => {
         }
 
     ];
-    const contact_button = <Link to="#contact_div" smooth> <Button className='text-blue-800 hover:text-white' label="Contact" rounded icon="pi pi-envelope" /></Link>
+    const contact_button = <Link to="#contact_div" smooth> <Button className='text-blue-800 hover:text-white link_styles' label="Contact" rounded icon="pi pi-envelope" /></Link>
 
     return (
         <Menubar className="navbar_menu text-white font-4xl p-2"

@@ -53,6 +53,7 @@ const AboutMeTabs = () => {
 								<p>The Ultimate React JS Course 2024</p>
 								<p>Python django</p>
 								<p>Introduction to Service Management with ITIL 4</p>
+								<p>Beginning Oracle WebLogic for Administrators</p>
 							</li>
 							<li>
 								<h5><li className='pi pi-pen-to-square'></li> Naaro High School</h5>

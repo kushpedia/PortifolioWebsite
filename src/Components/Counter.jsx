@@ -12,7 +12,7 @@ const Counter = () => {
 			<div className="grid grid-nogutter surface-0 text-800 mr-4 ml-2 mt-1 ">
 				<div className="flex align-items-center col-12 md:col-6 p-2 text-center md:text-left inner_container">
 					<section className='ml-8 p-2' >
-						<motion.span className=" block mb-4 title_name"
+						<motion.span className=" block mb-4 mt-8 title_name"
 
 						>HENRY WANJIRU</motion.span>
 						<div className=" fadein animation-duration-3000 text-primary font-italic mb-4 ml-4 title_description">
