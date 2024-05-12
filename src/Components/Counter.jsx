@@ -25,8 +25,8 @@ const Counter = () => {
 							<Tag severity="Primary" className='tag' value="Version Control" icon="pi pi-github"></Tag>
 						</div>
 						<div className='flex flex-wrap align-items-center justify-content-between'>
-							<a href="/#contact_div"><Button label="Hire Me" type="button" className="p-button-raised" /></a>
-							<a href="/#projects"><Button label="My Projects" type="button" className="p-button-outlined my_projects_button" /></a>
+							<a href="/#contact_div" className='link_styles'><Button label="Hire Me" type="button" className="p-button-raised" /></a>
+							<a href="/#projects" className='link_styles'><Button label="My Projects" type="button" className="p-button-outlined my_projects_button" /></a>
 
 						</div>
 
@@ -34,10 +34,7 @@ const Counter = () => {
 				</div>
 				<div className="col-6 md:col-6 overflow-none">
 					<motion.img src={Image2} alt="hero-1" height='590px' className='main_image zoomindown  animation-duration-2000 ml-4' width='450px' style={{}}
-					// whileHover={{
-					// 	rotateY:180,
-					// 	}}
-					// transition={{duration:2}}	
+
 					/>
 				</div>
 			</div>

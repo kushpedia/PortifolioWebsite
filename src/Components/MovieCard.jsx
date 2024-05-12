@@ -20,9 +20,9 @@ const MovieCard = ({ project }) => {
 
 				</div>
 				<p className="movie_description">
-					<a href={project.githubLink} target='blank'><Button type="button" label="Github Repo" icon="pi pi-github" /></a>
+					<a href={project.githubLink} target='blank' className='link_styles'><Button type="button" label="Github Repo" icon="pi pi-github" /></a>
 				</p>
-				<a href={project.website} target='blank'><Button type="button" label="Visit The App" icon="pi pi-at" severity="warning"
+				<a href={project.website} target='blank' className='link_styles'><Button type="button" label="Visit The App" icon="pi pi-at" severity="warning"
 					className='mb-4' /></a>
 
 			</div>
