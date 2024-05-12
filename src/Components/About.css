@@ -15,12 +15,18 @@
 	flex-direction: column;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
 	.about_me_image {
 		height: 100px;
 		width: 100%;
 		border-radius: 10%;
 		visibility: hidden;
 
+	}
+}
+
+@media (max-width: 576px) {
+	.about_me_tab {
+		margin-left: -25px;
 	}
 }

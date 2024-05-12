@@ -1,5 +1,5 @@
-.navbar_menu{
-	position: fixed;
+.navbar_menu {
+
 	z-index: 2;
 	background: transparent;
 	backdrop-filter: blur(10px);

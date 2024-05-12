@@ -1,54 +1,74 @@
-.main_image{
+.main_image {
 	height: 500px;
-	clip-path:  xywh(0 1px 100% 100% round 20% 0);
+	clip-path: xywh(0 1px 100% 100% round 20% 0);
 	width: 90%;
 	margin-top: 50px;
-	
+
 }
-.title_name{
+
+.title_name {
 	font-family: "Sedan", serif;
 	font: bold;
-	font-size:xx-large;
+	font-size: xx-large;
 }
-.title_name:hover{
+
+.title_name:hover {
 	color: rgb(79, 145, 190);
-	
+
 }
-.tag:hover{
+
+.tag:hover {
 	color: rgb(100, 85, 85);
 	scale: 1.2;
-	
+
 }
-.main_container{
+
+.main_container {
 	margin-top: 50px;
+
 }
 
-@media (max-width: 769px ) {
-	.main_image{
-		height: 200px;
-		clip-path: none;
-		width: 60%;
-		margin-top: 2px;
-		border-radius: 10%;	
-	
-}
-/* .title_name{
-
-} */
-}
-@media (max-width: 560px ) {
-	.main_image{
+@media (max-width: 768px) {
+	.main_image {
 		display: none;
-		}
-	.title_name{
-		
-		transform: rotate(-3deg);
-		}
-	.title_description{		
-		
-		font-size:10vw;
 	}
-	.title_name:hover{
+}
+
+@media (max-width: 576px) {
+	.title_name {
+		font-size: 24px;
+	}
+
+	.title_description {
+		font-size: 28px;
+		color: black;
+	}
+
+	.title_name:hover {
 		color: rgb(23, 139, 216);
 	}
+
+	.inner_container {
+		/* background-image: url('../assets/devops.jpg'); */
+		background-color: rgb(239, 244, 244);
+		background-repeat: no-repeat;
+		background-size: cover;
+		clip-path: xywh(0 5px 95% 100% round 20% 0);
+
+	}
+
+	.main_image {
+		display: none;
+	}
+
+	.my_projects_button {
+		margin-right: 60px;
+		background-color: rgb(24, 135, 135);
+		color: white;
+	}
+
+	.my_projects_button:hover {
+		background-color: rgb(4, 61, 61);
+	}
+
 }

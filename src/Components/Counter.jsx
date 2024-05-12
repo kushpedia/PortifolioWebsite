@@ -10,12 +10,12 @@ const Counter = () => {
 		<div className='main_container' id='main_container'>
 
 			<div className="grid grid-nogutter surface-0 text-800 mr-4 ml-2 mt-1 ">
-				<div className="flex align-items-center col-12 md:col-6 p-2 text-center md:text-left main_container">
+				<div className="flex align-items-center col-12 md:col-6 p-2 text-center md:text-left inner_container">
 					<section className='ml-8 p-2' >
 						<motion.span className=" block mb-4 title_name"
 
 						>HENRY WANJIRU</motion.span>
-						<div className=" fadein animation-duration-3000 text-3xl text-primary font-italic mb-4 ml-4 title_description">
+						<div className=" fadein animation-duration-3000 text-primary font-italic mb-4 ml-4 title_description">
 							Full Stack Developer</div>
 						<div className='flex flex-wrap align-items-center justify-content-left gap-3 mb-8'>
 							<Tag severity="Primary" className='tag' value="Python" icon="pi pi-code"></Tag>
@@ -26,7 +26,7 @@ const Counter = () => {
 						</div>
 						<div className='flex flex-wrap align-items-center justify-content-between'>
 							<a href="/#contact_div"><Button label="Hire Me" type="button" className="p-button-raised" /></a>
-							<a href="/#projects"><Button label="My Projects" type="button" className="p-button-outlined" /></a>
+							<a href="/#projects"><Button label="My Projects" type="button" className="p-button-outlined my_projects_button" /></a>
 
 						</div>
 
