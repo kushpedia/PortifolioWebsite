@@ -40,8 +40,8 @@ const Projects = () => {
 			'title': 'CartWish',
 			'description': 'For a better Shoping experience',
 			'image': Digital_global,
-			'githubLink': 'https://kushpediakshop.netlify.app/',
-			'website': '#',
+			'githubLink': 'https://github.com/kushpedia/KushpediaEShop',
+			'website': 'https://kushpediakshop.netlify.app/',
 		},
 		{
 			'id': 4,

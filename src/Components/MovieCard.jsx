@@ -15,9 +15,6 @@ const MovieCard = ({ project }) => {
 				<h3 className='project_details_heading text-red-500'>{project['title']}</h3>
 				<div className="align_center movie_data_rate">
 					<p><em>{project.description}</em></p>
-
-
-
 				</div>
 				<p className="movie_description">
 					<a href={project.githubLink} target='blank' className='link_styles'><Button type="button" label="Github Repo" icon="pi pi-github" /></a>
