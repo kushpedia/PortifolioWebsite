@@ -16,7 +16,7 @@ const Contact = () => {
 				<div className='mb-2'><li className="pi pi-telegram mr-2"></li>infor@kushpedia.co.ke</div>
 				<div className='mt-2 mb-4'> <li className="pi pi-phone mr-2"></li>+254703443827</div>
 				<div className="grid p-2 gap-4 social_icons">
-					<div className="github mr-2"><a href="#"><li className='pi pi-github' target='blank'></li></a></div>
+					<div className="github mr-2"><a href="https://github.com/kushpedia"><li className='pi pi-github' target='blank'></li></a></div>
 					<div className="facebook mr-2"><a href='https://www.facebook.com/henry.kuria.967' target='blank'><li className='pi pi-facebook'></li></a></div>
 					<div className="linkedin mr-2"><a href="https://www.linkedin.com/in/kushpedia/" target='blank'><li className='pi pi-linkedin'></li></a></div>
 					<div className="twitter mr-2"><a href="#"><li className='pi pi-twitter'></li></a></div>
