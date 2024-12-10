@@ -4,6 +4,8 @@ import './About.css'
 import { Card } from 'primereact/card';
 import Experience from '../assets/no_bad_days.avif'
 import AboutImage from '../assets/no_bad_days.avif'
+import AboutImage2 from '../assets/Portifolio_image.png'
+
 import AboutMeTabs from './AboutMeTabs';
 const About = () => {
 	return (
@@ -12,7 +14,7 @@ const About = () => {
 			<div id='about_me' className='main_about_me grid mx-8'>
 				<div className='flex align-items-left justify-content-center'>
 					<div className='image mr-4'>
-						<img src={AboutImage} alt='about me image' className='about_me_image my-4'></img>
+						<img src={AboutImage2} alt='about me image' className='about_me_image my-4'></img>
 					</div>
 
 					<div className='about_me_details flex align-items-left justify-content-left'>
