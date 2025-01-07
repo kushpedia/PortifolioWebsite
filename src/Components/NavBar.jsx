@@ -1,10 +1,11 @@
 import React from 'react'
 import { Menubar } from 'primereact/menubar';
 import { Button } from 'primereact/button';
+import LogoImage from '../assets/logosvg.svg'
 import './NavBar.css'
 import { HashLink as Link } from 'react-router-hash-link';
 const NavBar = () => {
-    const image = <img src='https://github.com/kushpedia/PortifolioWebsite/blob/master/src/assets/logosvg.svg'></img>
+    const image = <img src={LogoImage}></img>
     const items = [
         {
             label: 'Home',
