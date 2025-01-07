@@ -5,7 +5,7 @@ import LogoImage from '../assets/logosvg.svg'
 import './NavBar.css'
 import { HashLink as Link } from 'react-router-hash-link';
 const NavBar = () => {
-    const image = <img src={LogoImage}></img>
+    const image = <img src={LogoImage} style={{width: 100, height: 80 }}></img>
     const items = [
         {
             label: 'Home',
