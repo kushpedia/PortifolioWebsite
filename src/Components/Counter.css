@@ -1,74 +1,119 @@
+/* Base styles */
+.counter-container {
+	width: 100%;
+	padding: 1rem;
+}
+
+.counter-grid {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.counter-content {
+	width: 100%;
+	padding: 1rem;
+	text-align: center;
+}
+
+.counter-title {
+	display: block;
+	margin-bottom: 1rem;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.counter-subtitle {
+	margin-bottom: 1.5rem;
+}
+
+.counter-tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+	justify-content: center;
+	margin-bottom: 2rem;
+}
+
+.counter-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	justify-content: center;
+	margin-bottom: 2rem;
+}
+
+.link_styles {
+	text-decoration: none;
+}
+
+.counter-image {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
 .main_image {
-	height: 500px;
-	clip-path: xywh(0 1px 100% 100% round 20% 0);
-	width: 90%;
-	margin-top: 50px;
-
+	max-width: 100%;
+	height: auto;
+	object-fit: contain;
 }
 
-.title_name {
-	font-family: "Sedan", serif;
-	font: bold;
-	font-size: xx-large;
-}
-
-.title_name:hover {
-	color: rgb(79, 145, 190);
-
-}
-
-.tag:hover {
-	color: rgb(100, 85, 85);
-	scale: 1.2;
-
-}
-
-.main_container {
-	margin-top: 50px;
-
-}
-
-@media (max-width: 768px) {
-	.main_image {
-		display: none;
-	}
-}
-
-@media (max-width: 576px) {
-	.title_name {
-		font-size: 24px;
+/* Tablet and larger screens */
+@media (min-width: 768px) {
+	.counter-grid {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
 	}
 
-	.title_description {
-		font-size: 28px;
-		color: black;
+	.counter-content {
+		width: 50%;
+		padding: 2rem;
+		text-align: left;
 	}
 
-	.title_name:hover {
-		color: rgb(23, 139, 216);
+	.counter-title {
+		font-size: 2.5rem;
 	}
 
-	.inner_container {
-		/* background-image: url('../assets/devops.jpg'); */
-		background-color: rgb(239, 244, 244);
-		background-repeat: no-repeat;
-		background-size: cover;
-		clip-path: xywh(0 5px 95% 100% round 20% 0);
+	.counter-tags {
+		justify-content: flex-start;
+	}
 
+	.counter-buttons {
+		justify-content: flex-start;
+	}
+
+	.counter-image {
+		width: 50%;
 	}
 
 	.main_image {
-		display: none;
+		max-height: 590px;
+		max-width: 450px;
 	}
+}
 
-	.my_projects_button {
-		margin-right: 60px;
-		background-color: rgb(24, 135, 135);
-		color: white;
+/* Animation and PrimeReact overrides */
+.fadein {
+	opacity: 0;
+	animation: fadeIn 3s forwards;
+}
+
+@keyframes fadeIn {
+	to {
+		opacity: 1;
 	}
+}
 
-	.my_projects_button:hover {
-		background-color: rgb(4, 61, 61);
-	}
+.tag {
+	margin: 0.25rem;
+}
 
+/* Ensure buttons are properly sized on mobile */
+.p-button {
+	width: auto;
+	min-width: 120px;
 }
